@@ -160,7 +160,7 @@ modalCart.addEventListener('click', event => {
 // scroll smooth
 
 
-const scrollLinks = document.querySelectorAll('a.scroll-link');
+const scrollLinks = document.querySelectorAll('.scroll-link');
 
 for (const scrollLink of scrollLinks) {
 	scrollLink.addEventListener('click', event => {
